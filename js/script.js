@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var cats = [
   {
     'name': 'poplinre',
@@ -57,16 +56,3 @@ for (var i = 0; i < cats.length; i++) {
   addListener(i);
 }
 
-||||||| merged common ancestors
-=======
-var count = 0;
-console.log("count = ", count);
-var elem = document.getElementById('cat');
-elem.addEventListener('click', function() {
-  // increment the counter
-  count++;
-  console.log("count = ", count);
-  document.getElementById('counter').innerHTML = "Click Count: " + count;
-
-})
->>>>>>> f1f3005616c98209e73424123504beacb469a1bf
